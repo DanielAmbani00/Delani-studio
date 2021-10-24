@@ -1,9 +1,60 @@
-.src {
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+*{
+  font-family: 'Zen Antique Soft', serif;
+}
+
+
+.About{
+    text-align: center;
+}
+.Delani {
+    background-image: url("../images/h_img.jpg");
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    justify-items: center;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+.centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-.h2 {
+  Delani {
+    background-image: url("../images/s_image.jpg");
+    background-size: cover;
+    height: 600px;
     text-align: center;
+    justify-items: center;
 }
+.insert {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+  
+.oops {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pan {
+    text-align: center;
+  }
+
+  .hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
