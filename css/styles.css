@@ -26,7 +26,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  Delani {
+  .Delani {
     background-image: url("../images/s_image.jpg");
     background-size: cover;
     height: 600px;
@@ -56,5 +56,49 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
+    
   }
   
+  .pt {
+    text-align: center;
+  }
+  .btn1 p {
+    display: none;
+    
+  }
+  .btn1:hover p {
+    display: inline;
+  } 
+
+  .btn1:hover img {
+    display: none;
+  } 
+
+  .btn2 p {
+    display: none;
+    
+  }
+  .btn2:hover p {
+    display: inline;
+  } 
+
+  .btn2:hover img {
+    display: none;
+  } 
+
+  .btn3 p {
+    display: none;
+    
+  }
+  .btn3:hover p {
+    display: inline;
+  } 
+
+  .btn3:hover img {
+    display: none;
+  } 
+
+.pit {
+   text-align: center;
+  
+}
