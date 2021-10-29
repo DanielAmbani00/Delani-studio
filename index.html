@@ -50,15 +50,15 @@
       
       <h2 class="pan">WHAT WE DO</h2>
         <div class="hover">
-           <div class="btn1">DESIGN
+           <div id="btn1">DESIGN
              <img src="images/design_icon.png">
              <p>Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing.<br>Throughout your project, our designers create and implement visual design and workflows,solicit user feedback and work with you to make sure what gets build is what needed.</p>
            </div> 
-           <div class="btn2">DEVELOPMENT
+           <div id="btn2">DEVELOPMENT
             <img src="images/dev_icon.png">
             <p>All engineers are fluent in the latest enterprise,mobile and web development technologies.<br>They collaborate with your team to write and improve code on adaily basis usng proven practices such as test-driven development and pair programming.</p>
            </div>
-           <div class="btn3">PRODUCT MANAGEMENT
+           <div id="btn3">PRODUCT MANAGEMENT
             <img src="images/product_icon.png">
             <p>Planning an development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.<br>This iterative process allows for change as business requirements evolve </p>
            </div>
@@ -81,14 +81,13 @@
         <div class="d">Bottom Right</div>
         <div class="run">
         <form>
-           Name: <input type="text" name="usrname"><label for="email"><br></label>Enter your email:</label>
-          
-        <input type="email" id="email" name="email">
-          <form action="/action_page.php" id="usrform">
-        </form>
-        <textarea name="comment" form="usrform">Enter text here...</textarea><br>
-        <input type="submit">
-        </form>
+        
+      <div class="bottom">
+            <h3>CONTACT US</h3>
+            <input type="text" id="name" placeholder="Name..." size="50"> <input type="email" id="email" placeholder="Email..." size="50">
+            <textarea name="name" rows="8" cols="104" id="message" placeholder="Your message here..." size="103"></textarea><br>
+            <button onclick="response()">Send</button>
+          </div>
       </div>
 
 
