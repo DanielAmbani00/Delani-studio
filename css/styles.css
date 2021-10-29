@@ -26,7 +26,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .Delani {
+.Delani {
     background-image: url("../images/s_image.jpg");
     background-size: cover;
     height: 600px;
@@ -48,8 +48,15 @@
   }
   .pan {
     text-align: center;
-  }
 
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    
+  }
   .hover {
     display: flex;
     flex-direction: row;
@@ -59,44 +66,11 @@
     
   }
   
-  .pt {
+.pt {
     text-align: center;
+    display: inline-flexbox;
   }
-  .btn1 p {
-    display: none;
-    
-  }
-  .btn1:hover p {
-    display: inline;
-  } 
-
-  .btn1:hover img {
-    display: none;
-  } 
-
-  .btn2 p {
-    display: none;
-    
-  }
-  .btn2:hover p {
-    display: inline;
-  } 
-
-  .btn2:hover img {
-    display: none;
-  } 
-
-  .btn3 p {
-    display: none;
-    
-  }
-  .btn3:hover p {
-    display: inline;
-  } 
-
-  .btn3:hover img {
-    display: none;
-  } 
+  
 
 .pit {
    text-align: center;
@@ -120,4 +94,7 @@
 .rep {
   text-align: center;
 }
-  
+#btn1, #btn2, #btn3{
+  display: none;
+}
+
